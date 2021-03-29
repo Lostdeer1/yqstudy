@@ -1,0 +1,116 @@
+/* 资源下载部分 */
+.sk_container {
+    height: 500px;
+}
+    /* 资源下载部分 */
+    .down_inside {
+        width: 100%;
+    }
+    .down_inside ul {
+        width: 100%;
+        padding: 0;
+        margin: 10px 0 0 12px;
+    }
+    .down_inside ul li {
+        float: left;
+        margin-bottom: 20px;
+        overflow: hidden;
+        background: #ffffff;
+        padding: 15px;
+        box-shadow: 0px 0px 20px 0px #eaeaea;
+        width: 28%;
+        margin-right: 3%;
+    }
+    .down_inside ul li:nth-child(3n) {
+        margin-right: 0px;
+    }
+    
+    .down_inside ul li .news_con p {
+        font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        border-bottom: 1px solid #dedede;
+        margin-bottom: 15px;
+    }
+    .down_inside ul li .news_con p a {
+        display: block;
+        width: 65%;
+        float: left;
+        height: 40px;
+        line-height: 40px;
+        color: #333;
+        font-weight: bold;
+    }
+    .down_inside ul li .news_con p span {
+        display: block;
+        width: 30%;
+        float: right;
+        height: 40px;
+        line-height: 40px;
+        text-align: right;
+        color: #999;
+    }
+    .down_inside ul li .news_con a.xz {
+        display: block;
+        width: 120px;
+        height: 40px;
+        background: #7a9bba;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 2px;
+        margin: 0 auto;
+    }
+    .down_inside ul li:hover {
+        background: #7a9bba;
+    }
+    .down_inside ul li:hover .news_con p a {
+        color: #fff
+    }
+    .down_inside ul li:hover p span {
+        color: #fff
+    }
+    .down_inside ul li:hover a.xz {
+        background: #fff;
+        color: #7a9bba;
+    }
+    .down_btn a {
+        display: block;
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+        color: #fff;
+        background: #7a9bba;
+        line-height: 40px;
+        text-align: center;
+        margin: 40px auto 0;
+        border-radius: 2px;
+    }
+    .down_btn a:hover {
+        background: #4d779e;
+    }
+
+
+    .pagess dl{
+        display: inline-block;
+        text-align: center;
+        width: 1200px;
+        font-size: 12px;
+    }
+     .pagess dl dd {
+        display: inline-block;
+        border: 1px solid #ccc;
+        padding: 2px 9px;
+        margin: 0 3px;
+        line-height: 20px;
+        background: #fff;
+        color: #999;
+    }
+     .pagess dl dd:hover{
+        background: #ccc;
+        color: #fff;
+    }
+     .pagess dl dd:hover a{
+        color: #fff;
+    }

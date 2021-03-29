@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>一起学习吧-文章详情页</title>
+    <meta name="description" content="一起学习吧是一家免费资源共享平台，专为新手打造的免费共享资源网,来这里璇与你一起访问爱问共享资料平台学习!" />
+    <meta name="Keywords" content="免费资源，资源共享，学习资源，共享资源网，学习资料" />
+    <!-- 引入facicon.ico网页图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- 引入css 初始化的css 文件 -->
+    <link rel="stylesheet" href="./css/base.css">
+    <!-- 引入公共样式的css 文件 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入 列表页面的css文件 -->
+    <link rel="stylesheet" href="./css/wenzhang.css">
+    <link rel="stylesheet" href="./css/wzdetail.css">
+    <link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/vendors/nprogress/nprogress.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/animate.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="assets/vendors/nprogress/nprogress.js"></script>
+    <script src="assets/vendors/swipe/swipe.js"></script>
+
+</head>
+
+<body>
+    <!-- 顶部快捷导航start -->
+    <div class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>欢迎来到一起学习吧资源共享平台!</li>
+                </ul>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li><a href="javascript::">我的课程</a></li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="javascript::">历史学习</a>
+                        <i class="icomoon"></i>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="javascript::">我的收藏</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="javascript::">个人中心</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="javascript::">机构入驻</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部快捷导航end  -->
+    <!-- header制作 -->
+    <div class="header w">
+        <!-- logo -->
+        <div class="logo">
+            <h1>
+                <a href="index.html" title="一起学习吧">一起学习吧</a>
+            </h1>
+        </div>
+        <!-- search -->
+        <div class="search">
+            <input type="text" class="text" value="请输入搜索内容...">
+            <button class="btn">搜索</button>
+        </div>
+
+        <div class="fr ruzhu">
+            <a class="jgrz" href="javascript::" title="机构入驻">机构入驻</a>
+            <a class="lsrz" href="javascript::" title="老师入驻">老师入驻</a>
+        </div>
+    </div>
+    <!-- header 结束 -->
+    <!-- nav start -->
+    <div class="nav">
+        <div class="w">
+            <div class="dropdown fl">
+                <div class="dt"> 全部资源分类 </div>
+                <div class="dd" style="display: none;">
+                    <ul>
+                        <li class="menu_item"><a href="#">HTML学习资源</a> <i>  </i> </li>
+                        <li class="menu_item">
+                            <a href="list.html">CSS学习资源</a>
+                            <i>  </i>
+                        </li>
+                        <li class="menu_item"><a href="#">JavaScript基础学习资源</a> <i>  </i> </li>
+                        <li class="menu_item"><a href="#">jQuery插件学习资源</a> <i>  </i> </li>
+                        <li class="menu_item"><a href="#">JavaScript高级学习资源</a> <i>  </i> </li>
+                        <li class="menu_item"><a href="#">Node.js学习资源</a> <i>  </i> </li>
+                        <li class="menu_item"><a href="#">Express框架学习资源</a> <i>  </i> </li>
+                        <li class="menu_item"><a href="#">Ajax学习资源</a> <i>  </i> </li>
+                        <li class="menu_item"><a href="#">Git学习资源</a> <i>  </i> </li>
+                        <li class="menu_item"><a href="#">Vue基础学习资源</a> <i>  </i> </li>
+                        <li class="menu_item"><a href="#">React基础学习资源</a> <i>  </i> </li>
+                        <li class="menu_item"><a href="#">React进阶学习资源</a> <i>  </i> </li>
+                        <li class="menu_item"><a href="#">小程序学习资源</a> <i> </i> </li>
+                        <li class="menu_item"><a href="#">TypeScript学习资源</a> <i> </i> </li>
+                        <li class="menu_item"><a href="#">Vue高级学习资源</a> <i>  </i> </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右侧导航 -->
+            <div class="navitems fl">
+                <span class="cloud" style="left: 144px;"></span>
+                <ul>
+                    <li><a class="current" href="./index.html">网站首页</a></li>
+                    <li><a href="./wenzhang.html">文章资源</a></li>
+                    <li><a href="./shuji.html">书籍资源</a></li>
+                    <li><a href="./shipin.html">视频资源</a></li>
+                    <li><a href="./xiazai.html">资源下载</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- nav end  -->
+
+    <!-- 宣传图部分 -->
+    <div class="xuanchuan w">
+        <img src="./upload/ny_banner1.jpg" alt="">
+    </div>
+
+    <!-- 列表页的内容区域 -->
+    <div class="sk_container w">
+        <div class="wrapper">
+            <div class="aside">
+                <div class="widgets">
+                    <h4>随机推荐</h4>
+                    <ul class="body random">
+                        <li>
+                            <a href="javascript:;">
+                                <p class="title">有哪些免费的优质学习网站？</p>
+                                <p class="reading">阅读(819)</p>
+                                <div class="pic">
+                                    <img src="upload/wenzhang/1I21610O-1.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <p class="title">有哪些免费的优质学习网站？</p>
+                                <p class="reading">阅读(819)</p>
+                                <div class="pic">
+                                    <img src="upload/wenzhang/1I21610O-1.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <p class="title">有哪些免费的优质学习网站？</p>
+                                <p class="reading">阅读(819)</p>
+                                <div class="pic">
+                                    <img src="upload/wenzhang/1IU04536-0.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <p class="title">有哪些免费的优质学习网站？</p>
+                                <p class="reading">阅读(819)</p>
+                                <div class="pic">
+                                    <img src="upload/wenzhang/1I21610O-1.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <p class="title">有哪些免费的优质学习网站？</p>
+                                <p class="reading">阅读(819)</p>
+                                <div class="pic">
+                                    <img src="upload/wenzhang/1I21610O-1.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widgets">
+                    <h4>最新评论</h4>
+                    <ul class="body discuz">
+                        <li>
+                            <a href="javascript:;">
+                                <div class="avatar">
+                                    <img src="upload/avatar_1.jpg" alt="">
+                                </div>
+                                <div class="txt">
+                                    <p>
+                                        <span>鲜活</span>2020-02-01说:
+                                    </p>
+                                    <p>挺会玩的</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="avatar">
+                                    <img src="upload/avatar_1.jpg" alt="">
+                                </div>
+                                <div class="txt">
+                                    <p>
+                                        <span>鲜活</span>2020-02-01说:
+                                    </p>
+                                    <p>挺会玩的</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="avatar">
+                                    <img src="upload/avatar_2.jpg" alt="">
+                                </div>
+                                <div class="txt">
+                                    <p>
+                                        <span>鲜活</span>2020-02-01说:
+                                    </p>
+                                    <p>挺会玩的</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="avatar">
+                                    <img src="upload/avatar_1.jpg" alt="">
+                                </div>
+                                <div class="txt">
+                                    <p>
+                                        <span>鲜活</span>2020-02-01说:
+                                    </p>
+                                    <p>挺会玩的</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="avatar">
+                                    <img src="upload/avatar_2.jpg" alt="">
+                                </div>
+                                <div class="txt">
+                                    <p>
+                                        <span>鲜活</span>2020-02-01说:
+                                    </p>
+                                    <p>挺会玩的</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <div class="avatar">
+                                    <img src="upload/avatar_1.jpg" alt="">
+                                </div>
+                                <div class="txt">
+                                    <p>
+                                        <span>鲜活</span>2020-02-01说:
+                                    </p>
+                                    <p>挺会玩的</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="article">
+
+                    <h2 class="title">
+                        <a href="javascript:;">国内十大不可错过的免费学习资源网站（火速收藏中）</a>
+                    </h2>
+                    <div class="meta">
+                        <span>DUX主题小秘 发布于 2020-06-29</span>
+                        <span>分类: <a href="javascript:;">文章资源</a></span>
+                        <span>阅读: (2421)</span>
+                        <span>评论: (143)</span>
+                    </div>
+                    <div class="neirong">
+                        <div>
+                            1.黑马视频库
+                            <img src="./upload/wenzhang/wenzhang1.png" alt="">
+
+                            黑马程序员视频库里面有超多学科，涵盖IT互联网类的Java，C/C++，Python人工智能，软件测试，php、产品经理、前端等，以及新媒体运营，影视制作，UI/UE等超多福利免费教程，并且海量源码素材免费即可找到管理拿
+
+                            <br />2.国图公开课
+                            <img src="./upload/wenzhang/wenzhang2.png" alt="">
+
+
+                            国图公开课是中国国家图书馆推出的一个高质量免费在线学习网站，它以传承和弘扬先进文化与中华优秀传统文化为核心，并且提供多种形态的学习资源。
+
+                            <br />3.医学微视
+                            <img src="./upload/wenzhang/wenzhang3.png" alt="">
+
+                            医学微视是一个以视频的方式分享各种医学知识的良心网站，它上面的视频全部支持免费观看，是一个非常实用的免费医学教育网站。
+
+                            <br />4.科普中国
+                            <img src="./upload/wenzhang/wenzhang4.png" alt="">
+
+                            科普中国是中国科协主办的权威科普网站，它提供了丰富并且权威的科普内容，帮助你增长见识，学习各种知识，是一个内容全面并且功能丰富的教育资源网站。
+                            它提供的科普内容形式包括：文字、图片、长图、漫画、视频、图文等。
+                            它首页提供的内容版块包括：前沿、健康、百科、科幻、安全、人物、辟谣、智农；其中智农版块提供了丰富的农业科普知识和视频课程。
+
+                            <br />5.大学资源网
+                            <img src="./upload/wenzhang/wenzhang5.png" alt="">
+
+
+                            大学资源网是一个完全免费并且功能非常强大的学习网站，它免费提供了丰富并且全面的学习视频教程，并且视频课程一直在更新，非常良心。
+                            它提供了最新的考研视频课程，包括：考研数学、考研英语、考研政治、考研专业课。
+                            它提供了全面的外语视频课程，包括：四六级考试、品牌英语、基础英语、其它语种、雅思托福、英语口语。
+                            它还提供了实用的资格考试视频课程，包括：工程建筑、考试认证、财会考试、公务员考试、司法考试
+
+                            <br />6.国家教育资源公共服务平台
+
+                            <img src="./upload/wenzhang/wenzhang6.png" alt="">
+
+
+                            其中初中课程包括：语文、数学、英语、日语、俄语、品德、道德与法治、物理、化学、生物、科学、历史、社会、地理、音乐、美术、体育、艺术、汉语等。
+                            高中课程包括：语文、数学、英语、日语、俄语、物理、化学、历史、生物、地理、音乐、美术、体育、信息技术、通用艺术、社会、劳动技术、科学、汉语等。
+                            它不仅提供了学科教育，还提供了专题教育，专题教育提供的学习内容包括：综合实践活动、心理健康教育、家庭教育、安全教育。
+
+                            <br />7.中国数字科技馆
+                            <img src="./upload/wenzhang/wenzhang7.png" alt="">
+
+                            它以多种方式提供科学和科普内容，包括：文字、图片、音频、视频、游戏、直播、虚拟现实、线上和线下活动
+
+                            <br />8.壹课堂
+                            <img src="./upload/wenzhang/wenzhang8.png" alt="">
+
+
+                            壹课堂是一个功能非常强大的在线视频教程网站，它上面的所有视频课程支持直接免费观看。
+
+                            它支持的视频课程种类非常丰富，包括：历史，文学，哲学，医学，农学，艺术，基础学科，工程技术，法律学，数学，中国哲学，美术学，影视学。
+
+                            <br />9.语文迷
+                            <img src="./upload/wenzhang/wenzhang9.png" alt="">
+
+
+                            语文迷是一个功能非常强大并且完全免费的语文知识综合学习网站，它提供了丰富并且免费的语文学习素材和学习工具，不仅适用于学生，也适用于老师。
+
+                            它提供了丰富的语文学习素材，包括：语文基础知识、诗词学习、故事大全、国学经典。
+
+                            <br />10.译学馆
+                            <img src="./upload/wenzhang/wenzhang10.png" alt="">
+
+                            译学馆是一个质量极高的视频学习网站，它通过各种高质量短视频内容，丰富你的知识，提高你的见识，让你全方位得到提升。
+
+                            它的所有视频内容来源于国外网站，质量非常高，网站对所有视频内容都进行了精准的翻译，所以我们在网站看到的所有视频内容都是带有中文字幕的，让你学习起来非常轻松。
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="comment">
+                    <form>
+                        <textarea></textarea>
+                        <input type="submit" value="提交评论">
+                    </form>
+                </div>
+                <div class="panel hots">
+                    <h3>热门推荐</h3>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="upload/hots_2.jpg" alt="">
+                                <span>星球大战:原力觉醒视频演示 电影票68</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="upload/hots_2.jpg" alt="">
+                                <span>你敢骑吗？全球第一辆全功能3D打印摩托车亮相</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="upload/hots_2.jpg" alt="">
+                                <span>又现酒窝夹笔盖新技能 城里人是不让人活了！</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <img src="upload/hots_2.jpg" alt="">
+                                <span>实在太邪恶！照亮妹纸绝对领域与私处</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- 列表页的内容区域 -->
+
+
+
+    <script>
+        window.addEventListener('load', function () {
+            document.querySelector('.navitems ul li:nth-child(2)').click();
+        })
+    </script>
+</body>
+
+</html>

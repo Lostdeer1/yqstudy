@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <title>一起学习吧-用户登录页</title>
+  <meta name="description" content="一起学习吧是一家免费资源共享平台，专为新手打造的免费共享资源网,来这里璇与你一起访问爱问共享资料平台学习!" />
+  <meta name="Keywords" content="免费资源，资源共享，学习资源，共享资源网，学习资料" />
+  <!-- 引入facicon.ico网页图标 -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <!-- 引入css 初始化的css 文件 -->
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <script src="js/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var height = $(document).height();
+      $('body').css('height', height);
+      var mart = height - 500;
+      mart = mart / 2;
+      $('.loginBox').css('marginTop', mart);
+    })
+  </script>
+</head>
+
+<body>
+  <div class="loginBox">
+    <h1>一起学习吧-登录页面</h1>
+    <div class="item">
+      <div class="icon"><img src="img/icon4.png" /></div>
+      <div class="txt"><input name="" type="text" placeholder="请输入您的邮箱" /></div>
+    </div>
+    <div class="item">
+      <div class="icon"><img src="img/icon2.png" /></div>
+      <div class="txt"><input name="" type="password" placeholder="请输入您的密码" /></div>
+    </div>
+    <div class="item_2">
+      <input name="" type="checkbox" value="" />
+      <span>记住密码</span>
+    </div>
+    <div class="item_3">
+      <input name="" type="submit" value="安全登录" class="btn" />
+    </div>
+    <div class="item_4">
+      还没有账号？<a href="register.html">立即注册</a>
+    </div>
+  </div>
+</body>
+
+</html>

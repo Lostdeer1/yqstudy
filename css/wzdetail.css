@@ -1,0 +1,212 @@
+
+.wrapper .content .article{
+    background-color: #EBF3FC;
+    height: 800px;
+    overflow: auto;
+    
+}
+.wrapper .content .article .neirong {
+  font-size: 14px;
+  line-height: 30px;
+
+}
+.wrapper .content .article .neirong img{
+  width: 860px;
+  margin: 10px 0;
+}
+.wrapper .content .article .meta{
+    border-bottom: 1px solid #038ED8;
+    margin-bottom: 20px;
+}
+.wrapper .comment textarea {
+    background-color: #EBF3FC;
+}
+
+.wrapper .content .panel{
+    background-color: #EBF3FC;
+
+}
+.content .hots li img{
+    width: 100%;
+}
+.comment {
+    margin-bottom: 20px;
+    
+}
+
+.comment textarea {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    display: block;
+}
+
+.comment input {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.content .panel {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .content .panel h3 {
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid #ff5e52;
+  }
+  
+  .content .focus {
+    padding-bottom: 10px;
+  }
+  
+  .content .focus ul {
+    padding-left: 50%;
+    overflow: hidden;
+  }
+  
+  .content .focus li {
+    width: 50%;
+    height: 128px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+    position: relative;
+  }
+  
+  .content .focus li.large {
+    width: 100%;
+    height: 266px;
+    padding-left: 0;
+    margin-left: -100%;
+  }
+  
+  .content .focus li span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    padding: 4px 10px 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    transition: all linear 0.5s;
+  }
+  
+  .content .focus li:hover span {
+    background-color: #ff5e52;
+  }
+  
+  .content .focus li.large span {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  
+  .content .focus li.large:hover span {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .content .focus li img {
+    height: 100%;
+  }
+  
+  .content .top ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .content .top li {
+    line-height: 20px;
+    vertical-align: middle;
+    margin-bottom: 15px;
+  }
+  
+  .content .top li i {
+    display: inline-block;
+    padding: 0 7px;
+    font-size: 12px;
+    font-style: normal;
+    color: #fff;
+    background-color: #999;
+  }
+  
+  .content .top li:nth-child(1) i {
+    background-color: #fd8c84;
+  }
+  
+  .content .top li:nth-child(2) i {
+    background-color: #7fd75a;
+  }
+  
+  .content .top li:nth-child(3) i {
+    background-color: #60c4fd;
+  }
+  
+  .content .top a {
+    color: #444;
+  }
+  
+  .content .top a:hover {
+    color: #ff5e52;
+  }
+  
+  .content .top span,
+  .content .top .like {
+    color: #999;
+    float: right;
+    line-height: 14px;
+    font-size: 12px;
+  }
+  
+  .content .top span {
+    margin-right: 20px;
+  }
+  
+  .content .hots ul {
+    font-size: 0;
+    margin-bottom: 0;
+  }
+  
+  .content .hots li {
+    display: inline-block;
+    width: 24%;
+    font-size: 14px;
+    overflow: hidden;
+  }
+  
+  .content .hots li + li {
+    margin-left: 1.33333333333333%;
+  }
+  
+  .content .hots li a {
+    color: #666;
+  }
+  
+  .content .hots li a:hover {
+    color: #ff5e52;
+  }
+  
+  .content .hots li img {
+    height: 132px;
+    margin-bottom: 5px;
+  }
+  
+  .content .hots li span {
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
+  }
+
